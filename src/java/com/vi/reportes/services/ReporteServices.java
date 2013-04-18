@@ -8,7 +8,7 @@ import com.vi.reportes.util.FormatType;
 import com.vi.reportes.util.ReportsManager;
 import com.vi.comun.exceptions.LlaveDuplicadaException;
 import com.vi.comun.exceptions.ParametroException;
-import com.vi.comun.locator.ServiceLocator;
+import com.vi.comun.locator.ParameterLocator;
 import com.vi.comun.util.FilesUtils;
 import java.io.File;
 import java.lang.reflect.Method;
@@ -42,10 +42,10 @@ public class ReporteServices implements ReporteServicesLocal {
     @Resource(mappedName = "java:jboss/datasources/PostgreSQLDS")
     private DataSource dataSource;
     
-    ServiceLocator locator;
+    ParameterLocator locator;
     
     public ReporteServices(){
-        locator = ServiceLocator.getInstance();
+        locator = ParameterLocator.getInstance();
     }
     
     @Override
