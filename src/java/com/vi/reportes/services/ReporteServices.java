@@ -39,7 +39,7 @@ public class ReporteServices implements ReporteServicesLocal {
     @PersistenceContext(unitName = "ReportePU")
     private EntityManager em;
 
-    @Resource(mappedName = "java:jboss/datasources/PostgreSQLDS")
+    @Resource(mappedName = "java:jboss/datasources/PostgreSQLDS1")
     private DataSource dataSource;
     
     ParameterLocator locator;
