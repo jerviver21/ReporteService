@@ -120,7 +120,7 @@ public class ParametrosReporte implements Serializable {
 
     @Override
     public String toString() {
-        return "com.vbrothers.common.dominio.ParametroReporte[ id=" + id + " ]";
+        return "com.vi.comun.dominio.ParametroReporte[ id=" + id + " ]";
     }
     
 }

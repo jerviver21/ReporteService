@@ -89,7 +89,7 @@ public class TipoParametroReporte implements Serializable {
 
     @Override
     public String toString() {
-        return "com.vbrothers.common.dominio.TipoParametroReporte[ id=" + id + " ]";
+        return "com.vi.comun.dominio.TipoParametroReporte[ id=" + id + " ]";
     }
     
 }

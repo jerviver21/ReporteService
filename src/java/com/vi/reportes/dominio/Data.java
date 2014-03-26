@@ -87,7 +87,7 @@ public class Data implements Serializable {
 
     @Override
     public String toString() {
-        return "com.vbrothers.common.dominio.Data[ id=" + id + " ]";
+        return "com.vi.comun.dominio.Data[ id=" + id + " ]";
     }
     
 }

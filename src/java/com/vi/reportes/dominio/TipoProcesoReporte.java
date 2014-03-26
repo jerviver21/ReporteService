@@ -76,7 +76,7 @@ public class TipoProcesoReporte implements Serializable {
 
     @Override
     public String toString() {
-        return "com.vbrothers.common.dominio.ProcesosReportes[id=" + id + "]";
+        return "com.vi.comun.dominio.ProcesosReportes[id=" + id + "]";
     }
 
 }

@@ -109,7 +109,7 @@ public class Archivo implements Serializable {
 
     @Override
     public String toString() {
-        return "com.vbrothers.common.dominio.Archivo[ nombre=" + nombre + " ]";
+        return "com.vi.comun.dominio.Archivo[ nombre=" + nombre + " ]";
     }
     
 }

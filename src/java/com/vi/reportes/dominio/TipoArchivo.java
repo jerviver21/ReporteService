@@ -72,7 +72,7 @@ public class TipoArchivo implements Serializable {
 
     @Override
     public String toString() {
-        return "com.vbrothers.common.dominio.TipoArchivo[ id=" + id + " ]";
+        return "com.vi.comun.dominio.TipoArchivo[ id=" + id + " ]";
     }
     
 }
